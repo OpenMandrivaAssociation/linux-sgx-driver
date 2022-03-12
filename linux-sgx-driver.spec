@@ -5,7 +5,7 @@ Summary:        Intel Software Guard Extension (sgx)
 License:        BSD
 Group:          System/Base
 URL:            https://01.org/intel-softwareguard-extensions
-Source:         https://github.com/intel/linux-sgx-driver/archive/sgx_driver_%{version}.tar.gz
+Source0:         https://github.com/intel/linux-sgx-driver/archive/refs/tags/linux-sgx-driver-sgx_driver_%{version}.tar.gz
 BuildRequires:  automake
 
 %description
